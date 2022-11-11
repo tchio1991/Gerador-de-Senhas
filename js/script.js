@@ -104,3 +104,31 @@ copyPasswordButton.addEventListener("click", (e) => {
     }, 1000);
   });
 });
+
+document.getElementById('olho').addEventListener('mousedown', function() {
+  document.getElementById('password').type = 'text';
+});
+
+document.getElementById('olho').addEventListener('mouseup', function() {
+  document.getElementById('password').type = 'password';
+});
+
+// Para que o password não fique exposto apos mover a imagem.
+document.getElementById('olho').addEventListener('mousemove', function() {
+  document.getElementById('password').type = 'password';
+});
+
+
+// Segundo Campo de senha 
+document.getElementById('olho2').addEventListener('mousedown', function() {
+  document.getElementById('confirmpassword').type = 'text';
+});
+
+document.getElementById('olho2').addEventListener('mouseup', function() {
+  document.getElementById('confirmpassword').type = 'password';
+});
+
+// Para que o password não fique exposto apos mover a imagem.
+document.getElementById('olho2').addEventListener('mousemove', function() {
+  document.getElementById('confirmpassword').type = 'password';
+});

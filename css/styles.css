@@ -175,3 +175,21 @@
   .hide {
     display: none;
   }
+
+  .olho {
+    display: flex;
+    cursor: pointer;
+    position:relative;
+    width: 30px;
+    left: 360px;
+    top: 30px;
+  }
+
+  .olho2 {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    left: 360px;
+    top: 30px;
+  }
